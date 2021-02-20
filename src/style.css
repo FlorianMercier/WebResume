@@ -1,0 +1,94 @@
+html {
+    background-color: #383838;
+}
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+    max-width: 800px;
+    margin: auto;
+}
+h1, h2, h3 {
+    font-family: Calibri,sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+h1 {
+    font-size: 27px;
+    padding: 8px 10px 8px 14px;
+    line-height: 0.9em;
+}
+.skillTitle {
+    background-color: #a4b7c7;
+}
+.expTitle {
+    background-color: #e6e1e1;
+}
+h2 {
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 0.2em;
+}
+h3 {
+    font-size: 15px;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    width: 85%;
+    border: #d7e0e7 solid 4px;
+}
+.page {
+    display: flex;
+    /*height: 1121.5px;*//*To generate pdf on chrome*/
+}
+.skillZone {
+    float: left;
+    width: 30%;
+    background-color: #bfcdda;
+    word-wrap: break-word;
+}
+.skillBox {
+    margin: 0.5% 1% 0.5% 6%;
+    padding: 0.5% 1% 0.5% 6%;
+}
+.experienceZone {
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    text-align: justify;
+}
+.experienceBox {
+    margin: 0.5% 2% 0.5% 2%;
+    padding: 0.5% 2% 0.5% 2%;
+}
+@media (max-width:500px) {
+    .page {
+        display: inline-block;
+    }
+}
+@media (max-width:500px) {
+    .skillZone, .experienceZone {
+        width: 100%;
+    }
+}
+.name {
+    font-family: Calibri,sans-serif;
+    font-size: 35px;
+    word-wrap:normal;/*Care, name can overextend*/
+    font-weight: bold;
+    line-height: 0;
+    margin-left: 5%;
+}
+/*To swap between picture and name*/
+#name{
+    display: none;
+}
+.page:hover #name{
+    display: block;
+}
+.page:hover #pic{
+    display: none;
+}
