@@ -1,6 +1,6 @@
 # WebResume
 
-## A HTML and CSS Template for CV/Resume
+## An HTML and CSS Template for CV/Resume
 
 Soft colors and neutral design.
 

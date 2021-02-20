@@ -83,12 +83,12 @@ img {
     margin-left: 5%;
 }
 /*To swap between picture and name*/
-#name{
+.noPicture{
     display: none;
 }
-.page:hover #name{
+.page:hover .noPicture{
     display: block;
 }
-.page:hover #pic{
+.page:hover .picture{
     display: none;
 }
