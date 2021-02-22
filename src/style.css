@@ -40,6 +40,10 @@ img {
     width: 85%;
     border: #d7e0e7 solid 4px;
 }
+a:link, a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
 .page {
     display: flex;
     /*height: 1121.5px;*//*To generate pdf on chrome*/
