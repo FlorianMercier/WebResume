@@ -55,8 +55,8 @@ a:link, a:visited {
     word-wrap: break-word;
 }
 .skillBox {
-    margin: 0.5% 1% 0.5% 6%;
-    padding: 0.5% 1% 0.5% 6%;
+    margin: 0.5% 1% 0% 6%;
+    padding: 0.5% 1% 0% 6%;
 }
 .experienceZone {
     float: left;
@@ -65,8 +65,8 @@ a:link, a:visited {
     text-align: justify;
 }
 .experienceBox {
-    margin: 0.5% 2% 0.5% 2%;
-    padding: 0.5% 2% 0.5% 2%;
+    margin: 0.5% 2% 0.5% 1.2%;
+    padding: 0.5% 2% 0.5% 1.5%;
 }
 @media (max-width:500px) {
     .page {
